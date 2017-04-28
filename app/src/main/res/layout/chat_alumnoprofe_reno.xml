@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Chat alumno-profesor de energias Renovables"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/administracion"
+        android:layout_below="@+id/textView50"
+        android:layout_alignStart="@+id/editText17" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/icono_profesor"
+        android:layout_below="@+id/textView50"
+        android:layout_alignEnd="@+id/editText17" />
+
+    <Button
+        android:id="@+id/button84"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Ajustes"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView50"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editText17"
+        android:layout_width="320dp"
+        android:layout_height="300dp"
+        android:background="?android:attr/statusBarColor"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button85"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Seleccionar otro chat"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        android:layout_above="@+id/button88"
+        android:layout_alignEnd="@+id/button88"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/button86"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Ver horario"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        android:layout_alignBaseline="@+id/button87"
+        android:layout_alignBottom="@+id/button87"
+        android:layout_alignEnd="@+id/button84"
+        android:layout_marginEnd="12dp" />
+
+    <Button
+        android:id="@+id/button87"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Adjuntar archivo"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        android:layout_marginStart="11dp"
+        android:layout_alignBaseline="@+id/button85"
+        android:layout_alignBottom="@+id/button85"
+        android:layout_alignStart="@+id/editText17" />
+
+    <Button
+        android:id="@+id/button88"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Salir"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/editText17" />
+</RelativeLayout>

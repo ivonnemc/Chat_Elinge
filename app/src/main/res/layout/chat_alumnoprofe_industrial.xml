@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Chat alumno-profesor de Industrial"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/administracion"
+        android:layout_alignTop="@+id/button74"
+        android:layout_alignEnd="@+id/editText15" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/icono_profesor"
+        android:layout_above="@+id/editText15"
+        android:layout_alignStart="@+id/editText15"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/button74"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Ajustes"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        android:layout_alignTop="@+id/imageView20"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editText15"
+        android:layout_width="320dp"
+        android:layout_height="300dp"
+        android:background="?android:attr/statusBarColor"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button75"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Seleccionar otro chat"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        android:layout_above="@+id/button78"
+        android:layout_toEndOf="@+id/button74"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/button76"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Ver horario"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        android:layout_alignBaseline="@+id/button75"
+        android:layout_alignBottom="@+id/button75"
+        android:layout_alignStart="@+id/editText15" />
+
+    <Button
+        android:id="@+id/button77"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Adjuntar archivo"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        android:layout_alignBaseline="@+id/button75"
+        android:layout_alignBottom="@+id/button75"
+        android:layout_toEndOf="@+id/imageView20" />
+
+    <Button
+        android:id="@+id/button78"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="12dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Salir"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp"
+        android:layout_marginEnd="14dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/textView48" />
+</RelativeLayout>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView107"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horario"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView106"
+        android:layout_alignStart="@+id/textView106" />
+
+    <Button
+        android:id="@+id/button55"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Regresar"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="17dp" />
+
+    <TextView
+        android:id="@+id/textView106"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Residencias"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView105"
+        android:layout_alignStart="@+id/textView105" />
+
+    <TextView
+        android:id="@+id/textView104"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Servicio social"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView103"
+        android:layout_alignStart="@+id/textView103" />
+
+    <TextView
+        android:id="@+id/textView105"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horario"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView104"
+        android:layout_alignStart="@+id/textView104" />
+
+    <TextView
+        android:id="@+id/textView103"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horario"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView102"
+        android:layout_alignStart="@+id/textView102" />
+
+    <TextView
+        android:id="@+id/textView102"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:text="Taller"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView101"
+        android:layout_alignStart="@+id/textView101" />
+
+    <TextView
+        android:id="@+id/textView98"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Materia 7"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView97"
+        android:layout_alignStart="@+id/textView97" />
+
+    <TextView
+        android:id="@+id/textView99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horario"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView98"
+        android:layout_alignStart="@+id/textView98" />
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Materia 8"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView99"
+        android:layout_alignStart="@+id/textView99" />
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horario"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView100"
+        android:layout_alignStart="@+id/textView100" />
+
+    <TextView
+        android:id="@+id/textView97"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horario"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView96"
+        android:layout_alignStart="@+id/textView96" />
+
+    <TextView
+        android:id="@+id/textView95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horario"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView94"
+        android:layout_alignStart="@+id/textView94" />
+
+    <TextView
+        android:id="@+id/textView96"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Materia 6"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView95"
+        android:layout_alignStart="@+id/textView95" />
+
+    <TextView
+        android:id="@+id/textView94"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Materia 5"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView93"
+        android:layout_alignStart="@+id/textView93" />
+
+    <TextView
+        android:id="@+id/textView93"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horario"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView92"
+        android:layout_alignStart="@+id/textView92" />
+
+    <TextView
+        android:id="@+id/textView92"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Materia 4"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView91"
+        android:layout_alignStart="@+id/textView91" />
+
+    <TextView
+        android:id="@+id/textView91"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horario"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView90"
+        android:layout_alignStart="@+id/textView90" />
+
+    <TextView
+        android:id="@+id/textView90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Materia 3"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView89"
+        android:layout_alignStart="@+id/textView89" />
+
+    <TextView
+        android:id="@+id/textView89"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horario"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView88"
+        android:layout_alignStart="@+id/textView88" />
+
+    <TextView
+        android:id="@+id/textView88"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Materia 2"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView87"
+        android:layout_alignStart="@+id/textView87" />
+
+    <TextView
+        android:id="@+id/textView87"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horario"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView86"
+        android:layout_alignStart="@+id/textView86" />
+
+    <TextView
+        android:id="@+id/textView86"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="Materia 1"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_below="@+id/expandableListView2"
+        android:layout_toStartOf="@+id/textView76" />
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Crear horario"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <ExpandableListView
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:background="?android:attr/colorPressedHighlight"
+        android:id="@+id/expandableListView2"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/button92"
+        android:layout_toEndOf="@+id/textView76" />
+
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione su semestre"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:layout_below="@+id/button92"
+        android:layout_alignEnd="@+id/textView75" />
+
+    <Button
+        android:id="@+id/button92"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Visualizar"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView75"
+        android:layout_alignStart="@+id/expandableListView2" />
+</RelativeLayout>

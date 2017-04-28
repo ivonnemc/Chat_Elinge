@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Chat alumno-profesor de administración"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView19"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/administracion"
+        android:id="@+id/imageView11"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/textView19"
+        android:layout_alignStart="@+id/textView19"
+        android:layout_marginStart="20dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/icono_profesor"
+        android:id="@+id/imageView12"
+        android:layout_alignBottom="@+id/button47"
+        android:layout_alignEnd="@+id/button52"
+        android:layout_marginEnd="12dp" />
+
+    <Button
+        android:text="Ajustes"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:id="@+id/button47"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="12sp"
+        android:textColor="@android:color/background_light"
+        android:textAlignment="center"
+        android:layout_alignBottom="@+id/imageView11"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="320dp"
+        android:layout_height="300dp"
+        android:background="?android:attr/statusBarColor"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/imageView11"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Seleccionar otro chat"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/button50"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="12sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:layout_alignBaseline="@+id/button49"
+        android:layout_alignBottom="@+id/button49"
+        android:layout_alignStart="@+id/imageView12" />
+
+    <Button
+        android:text="Ver horario"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/button49"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="12sp"
+        android:textColor="@android:color/background_light"
+        android:layout_alignBaseline="@+id/button48"
+        android:layout_alignBottom="@+id/button48"
+        android:layout_alignStart="@+id/button47" />
+
+    <Button
+        android:text="Adjuntar archivo"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/button48"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="12sp"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/editText11"
+        android:layout_alignStart="@+id/imageView11"
+        android:layout_marginTop="23dp" />
+
+    <Button
+        android:text="Salir"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:id="@+id/button52"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="10sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/editText11" />
+</RelativeLayout>

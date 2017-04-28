@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+    <Button
+        android:text="Regresar"
+        android:layout_width="123dp"
+        android:layout_height="40dp"
+        android:id="@+id/button8"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="@android:color/background_light"
+        android:background="@android:color/holo_blue_light"
+        android:layout_marginStart="31dp"
+        android:layout_alignBottom="@+id/button7"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Siguiente"
+        android:layout_width="123dp"
+        android:layout_height="40dp"
+        android:id="@+id/button7"
+        android:textSize="24sp"
+        android:textColor="@android:color/background_light"
+        android:textAlignment="center"
+        android:background="@android:color/holo_blue_light"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="338dp"
+        android:layout_height="30dp"
+        android:inputType="textPersonName"
+        android:text="Apellidos"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:textSize="24sp"
+        android:textColor="@android:color/darker_gray"
+        android:textAlignment="center"
+        android:background="?android:attr/colorPressedHighlight"
+        android:layout_marginBottom="17dp"
+        android:layout_above="@+id/multiAutoCompleteTextView"
+        android:layout_alignStart="@+id/multiAutoCompleteTextView"
+        android:layout_alignEnd="@+id/multiAutoCompleteTextView" />
+
+    <MultiAutoCompleteTextView
+        android:text="Carrera"
+        android:layout_width="338dp"
+        android:layout_height="30dp"
+        android:textSize="24sp"
+        android:id="@+id/multiAutoCompleteTextView"
+        android:textColor="@android:color/darker_gray"
+        android:textAlignment="center"
+        android:background="?android:attr/colorPressedHighlight"
+        android:layout_marginBottom="15dp"
+        android:layout_above="@+id/editText6"
+        android:layout_alignStart="@+id/editText6"
+        android:layout_alignEnd="@+id/editText6" />
+
+    <TextView
+        android:text="Registro alumno"
+        android:layout_width="280dp"
+        android:layout_height="34dp"
+        android:id="@+id/textView3"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold"
+        android:textSize="28sp"
+        android:layout_above="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="338dp"
+        android:layout_height="30dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText6"
+        android:text="Correo"
+        android:textSize="24sp"
+        android:textColor="@android:color/darker_gray"
+        android:textAlignment="center"
+        android:background="?android:attr/colorPressedHighlight"
+        android:layout_marginBottom="42dp"
+        android:layout_above="@+id/button8"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/icono_alumno"
+        android:id="@+id/imageView2"
+        android:layout_above="@+id/editText3"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="338dp"
+        android:layout_height="30dp"
+        android:textSize="24sp"
+        android:inputType="textPersonName"
+        android:text="Nombre"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:textColor="@android:color/darker_gray"
+        android:textAlignment="center"
+        android:background="?android:attr/colorPressedHighlight"
+        android:layout_marginBottom="15dp"
+        android:layout_above="@+id/editText4"
+        android:layout_alignStart="@+id/editText4"
+        android:layout_alignEnd="@+id/editText4" />
+</RelativeLayout>

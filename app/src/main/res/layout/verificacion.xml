@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+
+    <TextView
+        android:text="Correo de verificación"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:id="@+id/textView12"
+        android:textSize="28sp"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="Por motivos de seguridad, verifique el correo que fué enviado, para terminar de crear su cuenta."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:id="@+id/textView13"
+        android:layout_below="@+id/textView12"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="Ingrese el código de verificación"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView13"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:id="@+id/textView14"
+        android:textSize="18sp"
+        android:textColor="@android:color/darker_gray"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_marginTop="19dp"
+        android:id="@+id/editText10"
+        android:lineSpacingExtra="10sp"
+        android:layout_below="@+id/textView14"
+        android:textAlignment="center"
+        android:padding="@dimen/activity_vertical_margin"
+        android:visibility="visible"
+        android:background="?android:attr/colorLongPressedHighlight"
+        android:layout_alignStart="@+id/button12"
+        android:layout_alignEnd="@+id/button13" />
+
+    <Button
+        android:text="Aceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button12"
+        android:layout_alignEnd="@+id/textView12"
+        android:id="@+id/button13"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:text="Regresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button12"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView12"
+        android:layout_marginBottom="64dp"
+        android:textSize="24sp"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/background_light"
+        android:textAlignment="center" />
+
+</RelativeLayout>
